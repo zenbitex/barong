@@ -1,5 +1,7 @@
 body.devise {
-  background-color: #000000;
+  background-image: image-url($devise-background-image);
+  background-size: cover;
+  background-repeat: no-repeat;
 
   .card {
     border: 0;

@@ -73,14 +73,13 @@ private
     postcode&.squish!
   end
 end
-
 # == Schema Information
-# Schema version: 20180907133821
+# Schema version: 20180430172330
 #
 # Table name: profiles
 #
-#  id         :bigint(8)        not null, primary key
-#  account_id :bigint(8)
+#  id         :integer          not null, primary key
+#  account_id :integer
 #  first_name :string(255)
 #  last_name  :string(255)
 #  dob        :date
@@ -98,5 +97,5 @@ end
 #
 # Foreign Keys
 #
-#  fk_rails_f44be28d09  (account_id => accounts.id)
+#  fk_rails_...  (account_id => accounts.id)
 #

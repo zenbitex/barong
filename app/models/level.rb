@@ -7,11 +7,11 @@ class Level < ApplicationRecord
 end
 
 # == Schema Information
-# Schema version: 20180907133821
+# Schema version: 20180426105942
 #
 # Table name: levels
 #
-#  id          :bigint(8)        not null, primary key
+#  id          :integer          not null, primary key
 #  key         :string(255)
 #  value       :string(255)
 #  description :string(255)
